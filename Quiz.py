@@ -20,21 +20,23 @@ def get_random_question(start_num):
     return(random_num)
 
 class Player:
-    used_questions = []
+    
     def __init__(self,name = name,score = 0,Difficulty = difficulty):
         self.name = name
         self.score = score
-        if difficulty == "Farmers":
+        if Difficulty == "Farmers":
             self.Difficulty = "EZ questions.txt"
-        elif difficulty == "FT":
+        elif Difficulty == "FT":
             self.Difficulty = "Mid questions.txt"
-        elif difficulty == "Elite":
-            self.Difficulty = "Elite questions.txt"
+        elif Difficulty == "Elite":
+            self.Difficulty = "Difficult questions.txt"
         else:
             print("Invalid difficulty")
             
-    def get_question(self,difficulty,used_questions = used_questions):
+    def get_question(self):
+        used_questions = []
     # Open the file in read mode and read all lines into a list
+        difficulty = self.Difficulty
         with open(difficulty, 'r') as f:
             lines = f.readlines()
 
@@ -52,26 +54,46 @@ class Player:
             used_questions.append(question)
             options = lines[line_number].strip().split(',')
             answer = lines[line_number+1].strip()
-            print(question)
-            print(options)
-            return answer
+            answer_letter = answer[1]
+            return question,options,answer_letter
 
                 
     
-    def answer(self):
-        player_answer = input("Please Chose your answer:")
-        answer = Player.get_question(self.Difficulty)
+    def answer(self,answer):
+        player_answer = input("Please Chose your answer: (letter only)")
         if player_answer == answer:
-            print("Correct!")
+            print("We cannoh replace him, More Than You can belive")
             self.score += 100
         else:
-            print("Wrong!")
+            print("This Guyyy, On My Life He's playing Against Us")
             self.score -= 100
-          
+     
+    def generate_result(self): 
+        print("Your score is: " + str(self.score))
+        if self.score >= 2000:
+            tprint("I Think I will Love It, And I Deserve IT.... Suiiiii")
+            print("{name} is JOSE MOURINHO!".format(name = self.name))
+        elif self.score < 2000 and self.score >= 1500:
+            tprint("I Used to pray for times like this!!!")
+            print("{name} has Elite Bol Nolij!".format(name = self.name))
+        elif self.score < 1500 and self.score >= 1000:
+            tprint("Absoloute Scenes Get In Lads!!!")
+            print("{name} has DEEEECENT Bol Nolij!".format(name = self.name))
+        elif self.score < 1000 and self.score >= 500:
+            tprint("Job's Not Finished!!!")
+            print("{name} is the ball nolij equivalent of LAKAKA".format(name = self.name))
+        else:
+            tprint("Pretty One Come My Way...")
+            print("{name} should start watching Tom Brady and dem Man".format(name = self.name))
 
+player1 = Player()
+for i in range(20):
+    q,o,a = player1.get_question()
+    print(q)
+    print(o)
+    player1.answer(a)
 
-
-
+player1.generate_result()
 
 
 
