@@ -1,0 +1,79 @@
+Who is the all-time leading goal scorer in the English Premier League?
+[A.Wayne Rooney],[B.Alan Shearer],[C.Thierry Henry],[D.Harry Kane]
+[B.Alan Shearer]
+
+In which year did Lionel Messi win his first Ballon d'Or?
+[a) 2007],[b) 2008],[c) 2009],[d) 2010]
+[a) 2007]
+
+Which country won the 2014 FIFA World Cup?
+[a) Brazil],[b) Spain],[c) Germany],[d) England]
+[c) Germany]
+
+Who was the top scorer in the 2018 FIFA World Cup?
+[a) Cristiano Ronaldo],[b) Antoine Griezmann],[c) Harry Kane],[d) Kylian Mbappe]
+[c) Harry Kane]
+
+Who is the most expensive football player of all time?
+[a) Neymar Jr.],[b) Lionel Messi],[c) Cristiano Ronaldo]
+[a) Neymar Jr.]
+
+Which team won the UEFA Champions League in 2020?
+[a) Manchester City],[b) Paris Saint-Germain],[c) Bayern Munich],[D) Chelsea]
+[c) Bayern Munich]
+
+Which country won the first ever FIFA World Cup in 1930?
+[a) Uruguay],[b) Argentina],[c) Brazil],[D) Germany]
+[a) Uruguay]
+
+Who is the manager of the French national football team?
+[a) Didier Deschamps],[b) Zinedine Zidane],[c) Laurent Blanc],[D) Unai Emery]
+[a) Didier Deschamps]
+
+Who is the only footballer to have won the Ballon d'Or with three different clubs?
+[a) Johan Cruyff],[b) Marco van Basten],[c) Cristiano Ronaldo],[D) Lionel Messi]
+[c) Cristiano Ronaldo]
+
+Who won the 2018-2019 UEFA Europa League?
+[a) Chelsea],[b) Arsenal],[c) Sevilla],[D) Benfica]
+[a) Chelsea]
+
+Which club has won the most Serie A titles in Italy?
+[a) Juventus],[b) Inter Milan],[c) AC Milan],[D) Napoli]
+[a) Juventus]
+
+Who was the captain of the Brazilian national team that won the 2002 FIFA World Cup?
+[a) Ronaldo],[b) Ronaldinho],[c) Cafu],[D) Garrincha]
+[c) Cafu]
+
+Who is the all-time leading scorer for the Spanish national team?
+[a) David Villa],[b) Raul],[c) Fernando Torres],[D) Alvaro Morata]
+[ a) David Villa]
+
+Who is the only player to have won the UEFA Champions League with three different clubs in consecutive seasons?
+[a) Zlatan Ibrahimovic],[b) Clarence Seedorf],[c) Cristiano Ronaldo],[D) Lionel Messi]
+[b) Clarence Seedorf]
+
+Who is the manager of the Manchester United football club?
+[a) Ole Gunnar Solskjær],[b) José Mourinho],[c) Sir Alex Ferguson],[D) Erik Ten Hag]
+[D) Erik Ten Hag]
+
+Which player has won the most Ballon d'Or awards?
+[a) Lionel Messi],[b) Cristiano Ronaldo],[c) Michel Platini],[D) Pelé]
+[a) Lionel Messi]
+
+Who scored the winning goal in the 2014 FIFA World Cup final?
+[a) Mario Götze],[b) Lionel Messi],[c) Thomas Müller],[D) Higuain]
+[a) Mario Götze]
+
+Which team won the UEFA Champions League in 2019?
+[a) Liverpool],[b) Tottenham Hotspur],[c) Real Madrid],[D) Chelsea]
+[a) Liverpool]
+
+Who is the all-time leading scorer for the German national team?
+[a) Miroslav Klose],[b) Gerd Muller],[c) Lukas Podolski],[D) Thomas Muller]
+[a) Miroslav Klose]
+
+Which country has won the most Copa America titles?
+[a) Brazil],[b) Argentina],[c) Uruguay],[D) Costa Rica]
+[c) Uruguay]

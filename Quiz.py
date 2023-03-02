@@ -7,12 +7,6 @@ print("This is the Ultimate test of Football Knowledge...")
 name = input("What is your name? ")
 difficulty = input("What difficulty do you want to play? [ Farmers | FT | Elite ]")
 
-class Player:
-    def __init__(self,name = name,score = 0,Difficulty = difficulty):
-        self.name = name
-        self.score = score
-        self.Difficulty = Difficulty
-        
 def get_random_question(start_num):
 # Set the range of numbers
     end_num = 80  # set the end number to 1 more than the max you want to allow (e.g. 101 instead of 100)
@@ -25,21 +19,59 @@ def get_random_question(start_num):
 
     return(random_num)
 
-
-def get_question():
+class Player:
+    used_questions = []
+    def __init__(self,name = name,score = 0,Difficulty = difficulty):
+        self.name = name
+        self.score = score
+        if difficulty == "Farmers":
+            self.Difficulty = "EZ questions.txt"
+        elif difficulty == "FT":
+            self.Difficulty = "Mid questions.txt"
+        elif difficulty == "Elite":
+            self.Difficulty = "Elite questions.txt"
+        else:
+            print("Invalid difficulty")
+            
+    def get_question(self,difficulty,used_questions = used_questions):
     # Open the file in read mode and read all lines into a list
-    with open('Difficult Questions.txt', 'r') as f:
-        lines = f.readlines()
+        with open(difficulty, 'r') as f:
+            lines = f.readlines()
 
 # Define the line number you want to retrieve
-    line_number = get_random_question(1)
+        while True:
+            line_number = get_random_question(1)
 
-# Get the desired line from the list of lines
-    question = lines[line_number-1]
-    answers = lines[line_number].strip().split(',')
-    print(question)
-    print(answers)
-# Do something with the line, for example print it
-get_question()
+    # Get the desired line from the list of lines
+            question = lines[line_number-1]
+    
+    # Check if the question has already been used
+            if question in used_questions:
+                continue
+    
+            used_questions.append(question)
+            options = lines[line_number].strip().split(',')
+            answer = lines[line_number+1].strip()
+            print(question)
+            print(options)
+            return answer
+
+                
+    
+    def answer(self):
+        player_answer = input("Please Chose your answer:")
+        answer = Player.get_question(self.Difficulty)
+        if player_answer == answer:
+            print("Correct!")
+            self.score += 100
+        else:
+            print("Wrong!")
+            self.score -= 100
+          
+
+
+
+
+
 
 

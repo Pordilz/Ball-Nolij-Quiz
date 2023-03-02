@@ -1,0 +1,79 @@
+What is the name of the stadium that Manchester United play at? 
+[A.Old Trafford],[B.White Heart Lane],[C.Emirates Stadium],[D.Wembley]
+[A.Old Trafford]
+
+Who is the all-time leading scorer for Barcelona?
+[A.Ronaldinho],[B.Cristiano Ronaldo],[C.Lionel Messi],[D.Mateo Messi]
+[C.Lionel Messi]
+
+Which country has won the most World Cups?
+[A.Germany],[B.France],[C.Brazil],[D.England]
+[C.Brazil]
+
+What is the name of the trophy awarded to the winners of the English League?
+[A.Jules Rimet Cup],[B.The Premier League Trophy],[C.Champions Cup],[D.Papa Johns Trophy] 
+[B.The Premier League Trophy]
+
+Which club has won the most Champions League titles?
+[A.Real Madrid],[B.Roma],[C.Bayern Munich],[D.Liverpool]
+[A.Real Madrid]
+
+Who is the current manager of Real Madrid?
+[A.Jose Mourinho],[B.Chrsitian Horner],[C.Glen Hoddle],[D.Carlo Ancelotti]
+[D.Carlo Ancelotti]
+
+What is the name of the football club in Munich that has won numerous titles including the Champions League?
+[A.Borussia Dortmund],[B.Ajax],[C.Bayern Munich],[D.Juventus]
+[C.Bayern Munich]
+
+Which club does Cristiano Ronaldo currently play for?
+[A.Al Nassr],[B.Manchester United],[C.Hashtag United],[D.PSG]
+[A.Al Nassr]
+
+Who won the Ballon d'Or in 2021?
+[A.Luka Modric],[B.Karim Benzema],[C.Cristiano Ronaldo],[D.Lionel Messi]
+[D.Lionel Messi]
+
+Who is the all-time leading goalscorer for the Brazilian national team?
+[A.Maradonna],[B.Pelé],[C.Cristiano Ronaldo],[D.Neymar]
+[B.Pelé]
+
+Who is the current captain of the German national team?
+[A.Thomas Muller],[B.Mario Gotze],[C.Manuel Neuer],[D.Kai Havertz]
+[C.Manuel Neuer]
+
+Which country has won the most European Championships?
+[A.England],[B.France],[C.Germany],[D.Spain]
+[C.Germany] [D.Spain] 
+
+Who won the 2018 World Cup?
+[A.Croatia],[B.Italy],[C.Spain],[D.France]
+[D.France]
+
+Who is the all-time leading scorer for the French national team?
+[A.Thierry Henry],[B.Clement Lenglet],[C.Kylian Mbappe],[D.Olivier Giroud]
+[D.Olivier Giroud]
+
+Which country is Lionel Messi from?
+[A.Argentina],[B.Brazil],[C.Portugal],[D.Spain]
+[A.Argentina]
+
+Who is the current manager of the England national team?
+[A.Gareth Southgate],[B.Sam Allardyce],[C.Sean Dyche],[D.Neil Warnock]
+[A.Gareth Southgate]
+
+What is the name of the club that David Beckham played for in the USA?
+[A.Inter Miami],[B.LA Galaxy],[C.LAFC],[D.New York City FC]
+[B.LA Galaxy]
+
+Which club has won the most FA Cup titles?
+[A.Chelsea],[B.Arsenal],[C.Tottenham],[D.Man City]
+[B.Arsenal]
+
+Who is the current manager of Liverpool?
+[A.Thomas Tuchel],[B.Diego Simieone],[C.Mikel Arteta],[D.Jürgen Klopp]
+[D.Jürgen Klopp]
+
+Which club has won the most La Liga titles?
+[A.Real Madrid],[B.Valencia],[C.Barcelona],[D.Eibar]
+[C.Barcelona]
