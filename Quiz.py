@@ -71,7 +71,7 @@ class Player:
     def generate_result(self): 
         print("Your score is: " + str(self.score))
         if self.score >= 2000:
-            print(text2art("I Think I will Love It, And I Deserve IT.... Suiiiii","white_bubble")+"\n")
+            print(text2art("I  T h i n k  I  w i l l  L o v e  I t ,  A n d  I  D e s e r v e  I T . . . .  S u i i i i i","white_bubble")+"\n")
             print("{name} is JOSE MOURINHO!".format(name = self.name))
         elif self.score < 2000 and self.score >= 1500:
             print(text2art("I Used to pray for times like this!!!","white_bubble")+"\n")
