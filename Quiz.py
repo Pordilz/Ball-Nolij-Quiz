@@ -20,7 +20,7 @@ def get_random_question(start_num):
     return(random_num)
 
 class Player:
-    
+    used_questions = []
     def __init__(self,name = name,score = 0,Difficulty = difficulty):
         self.name = name
         self.score = score
@@ -34,7 +34,7 @@ class Player:
             print("Invalid difficulty")
             
     def get_question(self):
-        used_questions = []
+    
     # Open the file in read mode and read all lines into a list
         difficulty = self.Difficulty
         with open(difficulty, 'r') as f:
@@ -48,10 +48,10 @@ class Player:
             question = lines[line_number-1]
     
     # Check if the question has already been used
-            if question in used_questions:
+            if question in Player.used_questions:
                 continue
     
-            used_questions.append(question)
+            Player.used_questions.append(question)
             options = lines[line_number].strip().split(',')
             answer = lines[line_number+1].strip()
             answer_letter = answer[1]
@@ -60,36 +60,36 @@ class Player:
                 
     
     def answer(self,answer):
-        player_answer = input("Please Chose your answer: (letter only)")
-        if player_answer == answer:
-            print("We cannoh replace him, More Than You can belive")
+        player_answer = input("Please Chose your answer: (letter only)").upper()
+        if player_answer == answer.upper():
+            print("\nWe cannoh replace him, More Than You can belive\n")
             self.score += 100
         else:
-            print("This Guyyy, On My Life He's playing Against Us")
+            print("\nThis Guyyy, On My Life He's playing Against Us\n")
             self.score -= 100
      
     def generate_result(self): 
         print("Your score is: " + str(self.score))
         if self.score >= 2000:
-            tprint("I Think I will Love It, And I Deserve IT.... Suiiiii")
+            print(text2art("I Think I will Love It, And I Deserve IT.... Suiiiii","white_bubble")+"\n")
             print("{name} is JOSE MOURINHO!".format(name = self.name))
         elif self.score < 2000 and self.score >= 1500:
-            tprint("I Used to pray for times like this!!!")
+            print(text2art("I Used to pray for times like this!!!","white_bubble")+"\n")
             print("{name} has Elite Bol Nolij!".format(name = self.name))
         elif self.score < 1500 and self.score >= 1000:
-            tprint("Absoloute Scenes Get In Lads!!!")
+            print(text2art("Absoloute Scenes Get In Lads!!!","white_bubble")+"\n")
             print("{name} has DEEEECENT Bol Nolij!".format(name = self.name))
         elif self.score < 1000 and self.score >= 500:
-            tprint("Job's Not Finished!!!")
+            print(text2art("Job's Not Finished!!!","white_bubble")+"\n")
             print("{name} is the ball nolij equivalent of LAKAKA".format(name = self.name))
         else:
-            tprint("Pretty One Come My Way...")
+            print(text2art("Pretty One Come My Way...","white_bubble")+"\n")
             print("{name} should start watching Tom Brady and dem Man".format(name = self.name))
 
 player1 = Player()
 for i in range(20):
     q,o,a = player1.get_question()
-    print(q)
+    print("\n"+q)
     print(o)
     player1.answer(a)
 
